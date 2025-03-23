@@ -23,7 +23,7 @@ All sensitive inputs should be stored using GitHub secrets.
 ```
 runs-on: windows-latest
 steps:
-  uses: acornbytes/github-sign-action@main
+  uses: acornbytes/pwsh-sign-action@1.0
   with:
     cert_path: ${{ github.workspace }}/certificate.pfx
     cert-password: ${{ secrets.CERT_PWD }}
