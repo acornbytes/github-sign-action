@@ -2,6 +2,10 @@ name: Sign Files
 description: A windows action which signs specified files using pwsh
 author: acornbytes
 
+branding:
+  icon: "lock"
+  color: "purple"
+
 inputs:
   cert_base64:
     description: The Base64-encoded representation of the PFX certificate.
