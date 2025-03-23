@@ -29,7 +29,7 @@ steps:
     cert-password: ${{ secrets.CERT_PWD }}
     sign_globs: **/bin/*/*.dll
     hash: SHA256
-    timestamp-server: ['http://timestamp.digicert.com'](http://timestamp.sectigo.com)
+    timestamp-server: http://timestamp.sectigo.com
 ```
 
 # Licence
